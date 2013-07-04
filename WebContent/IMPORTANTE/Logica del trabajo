@@ -1,0 +1,12 @@
+
+
+Hay supuestos para avanzar por el trabajo:
+
+-Se inicia por Logueo.jsp. El usuario que entra se va a guardar a nivel de sesion
+-La lista de reservas del usuario se guarda a nivel de sesion
+-El carrito se guarda a nivel de sesion
+
+-Hay 3 tablas en la base de datos:
+	-Clientes: Key = Usuario
+	-Reservas: Key = Nombre. Un usuario puede tener varias reservas
+	-Carritos: Key = Usuario. Un usuario puede tener SOLO 1 carrito
